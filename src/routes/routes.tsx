@@ -6,15 +6,15 @@ import Team from '../pages/team'
 function AppRoutes() {
 	const navigationRoutes = [
 		{
-			path: '/',
+			path: '/gh-pages-react/',
 			element: <Home />,
 		},
 		{
-			path: '/team',
+			path: '/gh-pages-react/team',
 			element: <Team />,
 		},
 		{
-			path: '/about',
+			path: '/gh-pages-react/about',
 			element: <About />,
 		}
 	]
