@@ -32,19 +32,19 @@ const App: React.FC = () => {
               key: '1',
               icon: <UserOutlined />,
               label: 'Home',
-              onClick: () => navigate('/'),
+              onClick: () => navigate('/gh-pages-react/'),
             },
             {
               key: '2',
               icon: <VideoCameraOutlined />,
               label: 'Team',
-              onClick: () => navigate('/team'),
+              onClick: () => navigate('/gh-pages-react/team'),
             },
             {
               key: '3',
               icon: <UploadOutlined />,
               label: 'About',
-              onClick: () => navigate('/about'),
+              onClick: () => navigate('/gh-pages-react/about'),
             },
           ]}
         />
